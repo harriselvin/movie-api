@@ -2,36 +2,132 @@
     "movies": [
         {
             "name": "Mad Max: Fury Road",
-            "Director": ["George Miller"],
-            "stars": ["Tom Hardy", "Charlize Theron", "Nicholas Hoult"],
-            "genre": ["Action", "Adventure", "Sci-Fi"],
+            "Director": [
+                {
+                    "name": "George Miller"
+                }
+            ],
+            "stars": [
+                {
+                    "name":"Tom Hardy"
+                },
+                {
+                    "name": "Charlize Theron"
+                },
+                {
+                    "name": "Nicholas Hoult"
+                }
+            ],
+            "genre": [
+                {
+                    "name":"Action" 
+                },
+                {
+                    "name":"Adventure"
+                },
+                {
+                    "name":"Sci-Fi"
+                }
+            ],
             "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshipper and a drifter named Max.",
             "release_date": "2015",
             "image": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "Bad Boys: Ride or Die",
-            "Director": ["Adil El Arbi", "Bilall Fallah"],
-            "stars": ["Will Smith", "Martin Lawrence", "Vanessa Hudgens"],
-            "genre": ["Action", "Adventure", "Comedy"],
+            "Director": [
+                {
+                    "name": "Adil El Arbi"
+                },
+                {
+                    "name": "Bilall Fallah"
+                }
+            ],
+            "stars": [
+                {
+                    "name":"Will Smith" 
+                },
+                {
+                    "name":"Martin Lawrence"
+                },
+                {
+                    "name":"Vanessa Hudgens"
+                }
+            ],
+            "genre": [
+                {
+                    "name": "Action" 
+                },
+                {
+                     "name": "Adventure"
+                },
+                {
+                    "name": "Comedy"
+                }
+            ],
             "description": "This Summer, the world's favorite Bad Boys are back with their iconic mix of edge-of-your seat action and outrageous comedy but this time with a twist: Miami's finest are now on the run.",
             "release_date": "2024",
             "image": "https://m.media-amazon.com/images/M/MV5BY2U5YmQ3YjgtM2I2OC00YmM5LTkyM2MtN2I5Zjg2MDE0ODkwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
         },
         {
             "name": "Deadpool",
-            "Director": ["Tim Miller"],
-            "stars": ["Ryan Reynolds", "Morena Baccarin", "T.J. Miller"],
-            "genre": ["Action", "Comedy"],
+            "Director": [
+                {
+                    "name": "Tim Miller"
+                }
+            ],
+            "stars": [
+                {
+                    "name": "Ryan Reynolds"
+                },
+                {
+                    "name": "Morena Baccarin"
+                },
+                {
+                    "name": "T.J. Miller"
+                }
+            ],
+            "genre": [
+                {
+                    "name":"Action"
+                },
+                {
+                    "name":"Comedy"
+                }
+            ],
             "description": "A wisecracking mercenary gets experimented on and becomes immortal yet hideously scarred, and sets out to track down the man who ruined his looks.",
             "release_date": "2016",
             "image": "https://m.media-amazon.com/images/I/51gjEOMj3gL._AC_UF1000,1000_QL80_.jpg"
         },
         {
             "name": "Inside Out 2",
-            "Director": ["Kelsey Mann"],
-            "stars": ["Amy Poehier", "Maya Hawke", "Kensington Tallman"],
-            "genre": ["Animation", "Adventure", "Comedy"],
+            "Director": [
+                {
+                    "name": "Kelsey Mann"
+                }
+            ],
+            "stars": [
+                {
+                    "name": "Amy Poehier" 
+                },
+                {
+                    "name": "Maya Hawke" 
+                },
+                {
+                    "name": "Kensington Tallman"
+                }
+            ],
+            "genre": [
+                {
+                    "name": "Animation"  
+                },
+                {
+                    "name": "Adventure"
+                },
+                {
+                    "name": "Comedy"
+                }
+            ],
             "description": "Follows Riley, in her teenage years, encountering new emotions.",
             "release_date": "2024",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCCjc7kL2W6GzdevolvtmMOiU58BwBH5bi_bPJc5UvcCX8-m_jjq7ksmTwm82XHgSVoE0&usqp=CAU"
@@ -40,36 +136,141 @@
     "series": [
         {
             "name": "The Boys",
-            "Director": ["Eric Kripke"],
-            "stars": ["Karl Urban", "Jack Quaid", "Antony Starr"],
-            "genre": ["Action", "Comedy", "Crime"],
+            "Director": [
+                {
+                    "name": "Eric Kripke"
+                }
+            ],
+            "stars": [
+                {
+                    "name": "Karl Urban" 
+                },
+                {
+                    "name": "Jack Quaid" 
+                },
+                {
+                    "name": "Antony Starr"
+                }
+            ],
+            "genre": [
+                {
+                    "name":"Action" 
+                },
+                {
+                    "name":"Comedy" 
+                },
+                {
+                    "name":"Crime"
+                }
+            ],
             "description": "A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.",
             "release_date": "2019 - 2024",
             "image": "https://m.media-amazon.com/images/M/MV5BYTY2ZjYyNGUtZGVkZS00MDNhLWIwMjMtZDk4MmQ5ZWI0NTY4XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "Stranger Things",
-            "Director": ["Matt Duffer", "Ross Duffer"],
-            "stars": ["Millie Bobby Brown", "Finn Wolfhard", "Winona Ryder"],
-            "genre": ["Drama", "Fantasy", "Horror"],
+            "Director": [
+                {
+                    "name": "Matt Duffer" 
+                },
+                {
+                    "name": "Ross Duffer"
+                }
+            ],
+            "stars": [
+                {
+                    "name": "Millie Bobby Brown"
+                },
+                {
+                    "name": "Finn Wolfhard"
+                },
+                {
+                    "name": "Winona Ryder"
+                }
+            ],
+            "genre": [
+                {
+                    "name": "Drama"
+                },
+                {
+                    "name": "Fantasy"
+                },
+                {
+                    "name": "Horror"
+                }
+            ],
             "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
             "release_date": "2016 - 2025",
             "image": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "Rick and Morty",
-            "Director": ["Dan Harmon", "Justin Roiland"],
-            "stars": ["Chris Parnall", "Spencer Grammer", "Sarah Chalke"],
-            "genre": ["Animation", "Adventure", "Comedy"],
+            "Director": [
+                {
+                    "name": "Dan Harmon" 
+                },
+                {
+                    "name": "Justin Roiland"
+                }
+            ],
+            "stars": [
+                {
+                    "name": "Chris Parnall"
+                },
+                {
+                    "name": "Spencer Grammer"
+                },
+                {
+                    "name": "Sarah Chalke"
+                }
+            ],
+            "genre": [
+                {
+                    "name": "Animation"
+                },
+                {
+                    "name": "Adventure"
+                },
+                {
+                    "name": "Comedy"
+                }
+            ],
             "description": "The fractured domestic lives of a nihilistic mad scientist and his anxious grandson are further complicated by their inter-dimensional misadventures.",
             "release_date": "2013 - 2021",
             "image": "https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg"
         },
         {
             "name": "Game of Thrones",
-            "Director": ["David Benioff", "D.B. Wiess"],
-            "stars": ["Emilia Clarke", "Peter Dinklage", "Kit Harrington"],
-            "genre": ["Action", "Adventure", "Drama"],
+            "Director": [
+                {
+                    "name": "David Benioff"
+                },
+                {
+                    "name": "D.B. Wiess"
+                }
+            ],
+            "stars": [
+                {
+                    "name": "Emilia Clarke"
+                },
+                {
+                    "name": "Peter Dinklage"
+                },
+                {
+                    "name": "Kit Harrington"
+                }
+            ],
+            "genre": [
+                {
+                    "name": "Action"
+                },
+                {
+                     "name": "Adventure"
+                },
+                {
+                    "name": "Drama"
+                }
+            ],
             "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
             "release_date": "2011 - 2019",
             "image": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
@@ -78,36 +279,138 @@
     "latest": [
         {
             "name": "Bad Boys: Ride or Die",
-            "Director": ["Adil El Arbi", "Bilall Fallah"],
-            "stars": ["Will Smith", "Martin Lawrence", "Vanessa Hudgens"],
-            "genre": ["Action", "Adventure", "Comedy"],
+            "Director": [
+                {
+                    "name": "Adil El Arbi" 
+                },
+                {
+                    "name": "Bilall Fallah"
+                }
+            ],
+            "stars": [
+                {
+                    "name": "Will Smith"
+                },
+                {
+                    "name": "Martin Lawrence"
+                },
+                {
+                    "name": "Vanessa Hudgens"
+                }
+            ],
+            "genre": [
+                    {
+                    "name": "Action"
+                },
+                {
+                    "name": "Adventure"
+                },
+                {
+                    "name": "Comedy"
+                }
+            ],
             "description": "This Summer, the world's favorite Bad Boys are back with their iconic mix of edge-of-your seat action and outrageous comedy but this time with a twist: Miami's finest are now on the run.",
             "release_date": "2024",
             "image": "https://m.media-amazon.com/images/M/MV5BY2U5YmQ3YjgtM2I2OC00YmM5LTkyM2MtN2I5Zjg2MDE0ODkwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
         },
         {
             "name": "Inside Out 2",
-            "Director": ["Kelsey Mann"],
-            "stars": ["Amy Poehier", "Maya Hawke", "Kensington Tallman"],
-            "genre": ["Animation", "Adventure", "Comedy"],
+            "Director": [
+                {
+                    "name": "Kelsey Mann"
+                }
+            ],
+            "stars": [
+                {
+                    "name": "Amy Poehier"
+                },
+                {
+                    "name": "Maya Hawke" 
+                },
+                {
+                    "name": "Kensington Tallman"
+                }
+            ],
+            "genre": [
+                {
+                    "name": "Animation" 
+                },
+                {
+                    "name": "Adventure" 
+                },
+                {
+                    "name": "Comedy"
+                }
+            ],
             "description": "Follows Riley, in her teenage years, encountering new emotions.",
             "release_date": "2024",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCCjc7kL2W6GzdevolvtmMOiU58BwBH5bi_bPJc5UvcCX8-m_jjq7ksmTwm82XHgSVoE0&usqp=CAU"
         },
         {
             "name": "Stranger Things",
-            "Director": ["Matt Duffer", "Ross Duffer"],
-            "stars": ["Millie Bobby Brown", "Finn Wolfhard", "Winona Ryder"],
-            "genre": ["Drama", "Fantasy", "Horror"],
+            "Director": [
+                {
+                    "name": "Matt Duffer" 
+                },
+                {
+                    "name": "Ross Duffer"
+                }
+            ],
+            "stars": [
+                {
+                    "name": "Millie Bobby Brown" 
+                },
+                {
+                    "name": "Finn Wolfhard" 
+                },
+                {
+                    "name": "Winona Ryder"
+                }
+            ],
+            "genre": [
+                {
+                    "name": "Drama" 
+                },
+                {
+                    "name": "Fantasy" 
+                },
+                {
+                    "name": "Horror"
+                }
+            ],
             "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
             "release_date": "2016 - 2025",
             "image": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "name": "The Boys",
-            "Director": ["Eric Kripke"],
-            "stars": ["Karl Urban", "Jack Quaid", "Antony Starr"],
-            "genre": ["Action", "Comedy", "Crime"],
+            "Director": [
+                {
+                    "name": "Eric Kripke"
+                }
+            ],
+            "stars": [
+                {
+                    "name": "Karl Urban" 
+                },
+                {
+                    "name": "Jack Quaid" 
+                },
+                {
+                    "name": "Antony Starr"
+                }
+            ],
+            "genre": [
+                {
+                    "name": "Action"
+                },
+                {
+                    "name": "Comedy" 
+                },
+                {
+                     "name": "Crime"
+                }
+            ],
             "description": "A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.",
             "release_date": "2019 - 2024",
             "image": "https://m.media-amazon.com/images/M/MV5BYTY2ZjYyNGUtZGVkZS00MDNhLWIwMjMtZDk4MmQ5ZWI0NTY4XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_FMjpg_UX1000_.jpg"
@@ -116,9 +419,21 @@
     "myList": [
         {
             "name": null,
-            "Director": [null],
-            "stars": [null],
-            "genre": [null],
+            "Director": [
+                {
+                "name": null
+            }
+        ],
+            "stars": [
+                {
+                "name": null
+            }
+        ],
+            "genre": [
+                {
+                "name": null
+            }
+        ],
             "description": null,
             "release_date": null,
             "image": null
