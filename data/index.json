@@ -2,7 +2,7 @@
     "movies": [
         {
             "name": "Mad Max: Fury Road",
-            "Director": [
+            "director": [
                 {
                     "name": "George Miller"
                 }
@@ -35,7 +35,7 @@
         },
         {
             "name": "Bad Boys: Ride or Die",
-            "Director": [
+            "director": [
                 {
                     "name": "Adil El Arbi"
                 },
@@ -71,7 +71,7 @@
         },
         {
             "name": "Deadpool",
-            "Director": [
+            "director": [
                 {
                     "name": "Tim Miller"
                 }
@@ -101,7 +101,7 @@
         },
         {
             "name": "Inside Out 2",
-            "Director": [
+            "director": [
                 {
                     "name": "Kelsey Mann"
                 }
@@ -136,7 +136,7 @@
     "series": [
         {
             "name": "The Boys",
-            "Director": [
+            "director": [
                 {
                     "name": "Eric Kripke"
                 }
@@ -169,7 +169,7 @@
         },
         {
             "name": "Stranger Things",
-            "Director": [
+            "director": [
                 {
                     "name": "Matt Duffer" 
                 },
@@ -205,7 +205,7 @@
         },
         {
             "name": "Rick and Morty",
-            "Director": [
+            "director": [
                 {
                     "name": "Dan Harmon" 
                 },
@@ -241,7 +241,7 @@
         },
         {
             "name": "Game of Thrones",
-            "Director": [
+            "director": [
                 {
                     "name": "David Benioff"
                 },
@@ -279,7 +279,7 @@
     "latest": [
         {
             "name": "Bad Boys: Ride or Die",
-            "Director": [
+            "director": [
                 {
                     "name": "Adil El Arbi" 
                 },
@@ -315,7 +315,7 @@
         },
         {
             "name": "Inside Out 2",
-            "Director": [
+            "director": [
                 {
                     "name": "Kelsey Mann"
                 }
@@ -348,7 +348,7 @@
         },
         {
             "name": "Stranger Things",
-            "Director": [
+            "director": [
                 {
                     "name": "Matt Duffer" 
                 },
@@ -384,7 +384,7 @@
         },
         {
             "name": "The Boys",
-            "Director": [
+            "director": [
                 {
                     "name": "Eric Kripke"
                 }
@@ -419,7 +419,7 @@
     "myList": [
         {
             "name": null,
-            "Director": [
+            "director": [
                 {
                 "name": null
             }
